@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */; };
+		87467B7F2AD6EB9100B034B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7E2AD6EB9100B034B1 /* ContentView.swift */; };
+		87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B802AD6EB9200B034B1 /* Assets.xcassets */; };
+		87467B842AD6EB9200B034B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B832AD6EB9200B034B1 /* Preview Assets.xcassets */; };
+		87467B8E2AD6EB9200B034B1 /* ThatiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B8D2AD6EB9200B034B1 /* ThatiTests.swift */; };
+		87467B982AD6EB9200B034B1 /* ThatiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B972AD6EB9200B034B1 /* ThatiUITests.swift */; };
+		87467B9A2AD6EB9200B034B1 /* ThatiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B992AD6EB9200B034B1 /* ThatiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87467B8A2AD6EB9200B034B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87467B712AD6EB9100B034B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87467B782AD6EB9100B034B1;
+			remoteInfo = Thati;
+		};
+		87467B942AD6EB9200B034B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87467B712AD6EB9100B034B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87467B782AD6EB9100B034B1;
+			remoteInfo = Thati;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87467B792AD6EB9100B034B1 /* Thati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thati.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiApp.swift; sourceTree = "<group>"; };
+		87467B7E2AD6EB9100B034B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87467B802AD6EB9200B034B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87467B832AD6EB9200B034B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87467B892AD6EB9200B034B1 /* ThatiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThatiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87467B8D2AD6EB9200B034B1 /* ThatiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiTests.swift; sourceTree = "<group>"; };
+		87467B932AD6EB9200B034B1 /* ThatiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThatiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87467B972AD6EB9200B034B1 /* ThatiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiUITests.swift; sourceTree = "<group>"; };
+		87467B992AD6EB9200B034B1 /* ThatiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87467B762AD6EB9100B034B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87467B862AD6EB9200B034B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87467B902AD6EB9200B034B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87467B702AD6EB9100B034B1 = {
+			isa = PBXGroup;
+			children = (
+				87467B7B2AD6EB9100B034B1 /* Thati */,
+				87467B8C2AD6EB9200B034B1 /* ThatiTests */,
+				87467B962AD6EB9200B034B1 /* ThatiUITests */,
+				87467B7A2AD6EB9100B034B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87467B7A2AD6EB9100B034B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87467B792AD6EB9100B034B1 /* Thati.app */,
+				87467B892AD6EB9200B034B1 /* ThatiTests.xctest */,
+				87467B932AD6EB9200B034B1 /* ThatiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87467B7B2AD6EB9100B034B1 /* Thati */ = {
+			isa = PBXGroup;
+			children = (
+				87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */,
+				87467B7E2AD6EB9100B034B1 /* ContentView.swift */,
+				87467B802AD6EB9200B034B1 /* Assets.xcassets */,
+				87467B822AD6EB9200B034B1 /* Preview Content */,
+			);
+			path = Thati;
+			sourceTree = "<group>";
+		};
+		87467B822AD6EB9200B034B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87467B832AD6EB9200B034B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87467B8C2AD6EB9200B034B1 /* ThatiTests */ = {
+			isa = PBXGroup;
+			children = (
+				87467B8D2AD6EB9200B034B1 /* ThatiTests.swift */,
+			);
+			path = ThatiTests;
+			sourceTree = "<group>";
+		};
+		87467B962AD6EB9200B034B1 /* ThatiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87467B972AD6EB9200B034B1 /* ThatiUITests.swift */,
+				87467B992AD6EB9200B034B1 /* ThatiUITestsLaunchTests.swift */,
+			);
+			path = ThatiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87467B782AD6EB9100B034B1 /* Thati */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87467B9D2AD6EB9200B034B1 /* Build configuration list for PBXNativeTarget "Thati" */;
+			buildPhases = (
+				87467B752AD6EB9100B034B1 /* Sources */,
+				87467B762AD6EB9100B034B1 /* Frameworks */,
+				87467B772AD6EB9100B034B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thati;
+			productName = Thati;
+			productReference = 87467B792AD6EB9100B034B1 /* Thati.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87467B882AD6EB9200B034B1 /* ThatiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87467BA02AD6EB9200B034B1 /* Build configuration list for PBXNativeTarget "ThatiTests" */;
+			buildPhases = (
+				87467B852AD6EB9200B034B1 /* Sources */,
+				87467B862AD6EB9200B034B1 /* Frameworks */,
+				87467B872AD6EB9200B034B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87467B8B2AD6EB9200B034B1 /* PBXTargetDependency */,
+			);
+			name = ThatiTests;
+			productName = ThatiTests;
+			productReference = 87467B892AD6EB9200B034B1 /* ThatiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87467B922AD6EB9200B034B1 /* ThatiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87467BA32AD6EB9200B034B1 /* Build configuration list for PBXNativeTarget "ThatiUITests" */;
+			buildPhases = (
+				87467B8F2AD6EB9200B034B1 /* Sources */,
+				87467B902AD6EB9200B034B1 /* Frameworks */,
+				87467B912AD6EB9200B034B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87467B952AD6EB9200B034B1 /* PBXTargetDependency */,
+			);
+			name = ThatiUITests;
+			productName = ThatiUITests;
+			productReference = 87467B932AD6EB9200B034B1 /* ThatiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87467B712AD6EB9100B034B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					87467B782AD6EB9100B034B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					87467B882AD6EB9200B034B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 87467B782AD6EB9100B034B1;
+					};
+					87467B922AD6EB9200B034B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 87467B782AD6EB9100B034B1;
+					};
+				};
+			};
+			buildConfigurationList = 87467B742AD6EB9100B034B1 /* Build configuration list for PBXProject "Thati" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87467B702AD6EB9100B034B1;
+			productRefGroup = 87467B7A2AD6EB9100B034B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87467B782AD6EB9100B034B1 /* Thati */,
+				87467B882AD6EB9200B034B1 /* ThatiTests */,
+				87467B922AD6EB9200B034B1 /* ThatiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87467B772AD6EB9100B034B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87467B842AD6EB9200B034B1 /* Preview Assets.xcassets in Resources */,
+				87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87467B872AD6EB9200B034B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87467B912AD6EB9200B034B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87467B752AD6EB9100B034B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87467B7F2AD6EB9100B034B1 /* ContentView.swift in Sources */,
+				87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87467B852AD6EB9200B034B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87467B8E2AD6EB9200B034B1 /* ThatiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87467B8F2AD6EB9200B034B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87467B982AD6EB9200B034B1 /* ThatiUITests.swift in Sources */,
+				87467B9A2AD6EB9200B034B1 /* ThatiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87467B8B2AD6EB9200B034B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87467B782AD6EB9100B034B1 /* Thati */;
+			targetProxy = 87467B8A2AD6EB9200B034B1 /* PBXContainerItemProxy */;
+		};
+		87467B952AD6EB9200B034B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87467B782AD6EB9100B034B1 /* Thati */;
+			targetProxy = 87467B942AD6EB9200B034B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87467B9B2AD6EB9200B034B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87467B9C2AD6EB9200B034B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87467B9E2AD6EB9200B034B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thati/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reema.Thati;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87467B9F2AD6EB9200B034B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thati/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reema.Thati;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87467BA12AD6EB9200B034B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reema.ThatiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thati.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thati";
+			};
+			name = Debug;
+		};
+		87467BA22AD6EB9200B034B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reema.ThatiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thati.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Thati";
+			};
+			name = Release;
+		};
+		87467BA42AD6EB9200B034B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reema.ThatiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thati;
+			};
+			name = Debug;
+		};
+		87467BA52AD6EB9200B034B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reema.ThatiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Thati;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87467B742AD6EB9100B034B1 /* Build configuration list for PBXProject "Thati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87467B9B2AD6EB9200B034B1 /* Debug */,
+				87467B9C2AD6EB9200B034B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87467B9D2AD6EB9200B034B1 /* Build configuration list for PBXNativeTarget "Thati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87467B9E2AD6EB9200B034B1 /* Debug */,
+				87467B9F2AD6EB9200B034B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87467BA02AD6EB9200B034B1 /* Build configuration list for PBXNativeTarget "ThatiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87467BA12AD6EB9200B034B1 /* Debug */,
+				87467BA22AD6EB9200B034B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87467BA32AD6EB9200B034B1 /* Build configuration list for PBXNativeTarget "ThatiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87467BA42AD6EB9200B034B1 /* Debug */,
+				87467BA52AD6EB9200B034B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87467B712AD6EB9100B034B1 /* Project object */;
+}
