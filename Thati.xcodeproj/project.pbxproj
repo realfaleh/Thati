@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		69776C952AD8338F00D2FF5C /* demoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C942AD8338F00D2FF5C /* demoView.swift */; };
+		69776C972AD833A000D2FF5C /* demo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 69776C962AD833A000D2FF5C /* demo.mp4 */; };
 		87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */; };
 		87467B7F2AD6EB9100B034B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7E2AD6EB9100B034B1 /* ContentView.swift */; };
 		87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B802AD6EB9200B034B1 /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		69776C942AD8338F00D2FF5C /* demoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoView.swift; sourceTree = "<group>"; };
+		69776C962AD833A000D2FF5C /* demo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = demo.mp4; path = ../../../../../Downloads/demo.mp4; sourceTree = "<group>"; };
 		87467B792AD6EB9100B034B1 /* Thati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thati.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiApp.swift; sourceTree = "<group>"; };
 		87467B7E2AD6EB9100B034B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				87467B7E2AD6EB9100B034B1 /* ContentView.swift */,
+				69776C942AD8338F00D2FF5C /* demoView.swift */,
+				69776C962AD833A000D2FF5C /* demo.mp4 */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -240,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87467B842AD6EB9200B034B1 /* Preview Assets.xcassets in Resources */,
+				69776C972AD833A000D2FF5C /* demo.mp4 in Resources */,
 				87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69776C952AD8338F00D2FF5C /* demoView.swift in Sources */,
 				87467B7F2AD6EB9100B034B1 /* ContentView.swift in Sources */,
 				87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */,
 			);
