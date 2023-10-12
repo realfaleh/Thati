@@ -6,10 +6,19 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct demoView: View {
+    
+    @State private var player = AVPlayer()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        ZStack{
+            
+            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource:"thatilogo", withExtension: "mp4")!))
+        }
+        
+       
     }
 }
 
