@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */,
-				87467B7E2AD6EB9100B034B1 /* ContentView.swift */,
+				87467BA62AD80F6300B034B1 /* views */,
 				87467B802AD6EB9200B034B1 /* Assets.xcassets */,
 				87467B822AD6EB9200B034B1 /* Preview Content */,
 			);
@@ -125,6 +125,14 @@
 				87467B992AD6EB9200B034B1 /* ThatiUITestsLaunchTests.swift */,
 			);
 			path = ThatiUITests;
+			sourceTree = "<group>";
+		};
+		87467BA62AD80F6300B034B1 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				87467B7E2AD6EB9100B034B1 /* ContentView.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
