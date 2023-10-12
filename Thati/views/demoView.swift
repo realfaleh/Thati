@@ -17,7 +17,7 @@ struct demoView: View {
             
             VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource:"thatilogo", withExtension: "mp4")!))
         }
-        
+        .ignoresSafeArea()
        
     }
 }
