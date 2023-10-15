@@ -11,7 +11,7 @@ import SwiftUI
 struct ThatiApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            demoView()
         }
     }
 }

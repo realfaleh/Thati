@@ -12,7 +12,6 @@
 		69776C9E2AD85BC000D2FF5C /* who'sLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C9D2AD85BC000D2FF5C /* who'sLearningView.swift */; };
 		69776CA02AD85FBD00D2FF5C /* subjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C9F2AD85FBD00D2FF5C /* subjectView.swift */; };
 		87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */; };
-		87467B7F2AD6EB9100B034B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7E2AD6EB9100B034B1 /* ContentView.swift */; };
 		87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B802AD6EB9200B034B1 /* Assets.xcassets */; };
 		87467B842AD6EB9200B034B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B832AD6EB9200B034B1 /* Preview Assets.xcassets */; };
 		87467B8E2AD6EB9200B034B1 /* ThatiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B8D2AD6EB9200B034B1 /* ThatiTests.swift */; };
@@ -42,9 +41,13 @@
 		69776C9B2AD855C400D2FF5C /* thatilogo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = thatilogo.mp4; path = ../../../../../.Trash/thatilogo.mp4; sourceTree = "<group>"; };
 		69776C9D2AD85BC000D2FF5C /* who'sLearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "who'sLearningView.swift"; sourceTree = "<group>"; };
 		69776C9F2AD85FBD00D2FF5C /* subjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectView.swift; sourceTree = "<group>"; };
+		69776CA72ADC0B5800D2FF5C /* hApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hApp.swift; sourceTree = "<group>"; };
+		69776CA92ADC0B5800D2FF5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		69776CAB2ADC0B5A00D2FF5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69776CAD2ADC0B5A00D2FF5C /* h.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = h.entitlements; sourceTree = "<group>"; };
+		69776CAF2ADC0B5A00D2FF5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87467B792AD6EB9100B034B1 /* Thati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thati.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiApp.swift; sourceTree = "<group>"; };
-		87467B7E2AD6EB9100B034B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87467B802AD6EB9200B034B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87467B832AD6EB9200B034B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		87467B892AD6EB9200B034B1 /* ThatiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThatiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,12 +82,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		69776CA62ADC0B5800D2FF5C /* h */ = {
+			isa = PBXGroup;
+			children = (
+				69776CA72ADC0B5800D2FF5C /* hApp.swift */,
+				69776CA92ADC0B5800D2FF5C /* ContentView.swift */,
+				69776CAB2ADC0B5A00D2FF5C /* Assets.xcassets */,
+				69776CAD2ADC0B5A00D2FF5C /* h.entitlements */,
+				69776CAE2ADC0B5A00D2FF5C /* Preview Content */,
+			);
+			path = h;
+			sourceTree = "<group>";
+		};
+		69776CAE2ADC0B5A00D2FF5C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				69776CAF2ADC0B5A00D2FF5C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		87467B702AD6EB9100B034B1 = {
 			isa = PBXGroup;
 			children = (
 				87467B7B2AD6EB9100B034B1 /* Thati */,
 				87467B8C2AD6EB9200B034B1 /* ThatiTests */,
 				87467B962AD6EB9200B034B1 /* ThatiUITests */,
+				69776CA62ADC0B5800D2FF5C /* h */,
 				87467B7A2AD6EB9100B034B1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,7 +162,6 @@
 		87467BA62AD80F6300B034B1 /* views */ = {
 			isa = PBXGroup;
 			children = (
-				87467B7E2AD6EB9100B034B1 /* ContentView.swift */,
 				69776C942AD8338F00D2FF5C /* demoView.swift */,
 				69776C9D2AD85BC000D2FF5C /* who'sLearningView.swift */,
 				69776C9F2AD85FBD00D2FF5C /* subjectView.swift */,
@@ -210,7 +233,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1430;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					87467B782AD6EB9100B034B1 = {
@@ -281,7 +304,6 @@
 				69776C952AD8338F00D2FF5C /* demoView.swift in Sources */,
 				69776C9E2AD85BC000D2FF5C /* who'sLearningView.swift in Sources */,
 				69776CA02AD85FBD00D2FF5C /* subjectView.swift in Sources */,
-				87467B7F2AD6EB9100B034B1 /* ContentView.swift in Sources */,
 				87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +463,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Thati/Preview Content\"";
+				DEVELOPMENT_TEAM = R8GG63L5X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -469,6 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Thati/Preview Content\"";
+				DEVELOPMENT_TEAM = R8GG63L5X3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
