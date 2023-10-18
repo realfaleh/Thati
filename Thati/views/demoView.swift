@@ -8,18 +8,25 @@
 import SwiftUI
 import AVKit
 
+
 struct demoView: View {
     
-    @State private var player = AVPlayer()
+    @State var player = AVPlayer(url: Bundle.main.url(forResource: "That", withExtension: "mp4")!)
     var body: some View {
         
-        ZStack{
+        VStack{
             
-            VideoPlayer(player: AVPlayer(url: Bundle.main.url(forResource:"thatilogo", withExtension: "mp4")!))
-        }
-        .ignoresSafeArea()
+            VideoPlayer(player: player)
+                          
+        }.onAppear {
+            player.play()
+    }
+        .edgesIgnoringSafeArea(.all)
        
     }
+    
+    
+    
 }
 
 #Preview {

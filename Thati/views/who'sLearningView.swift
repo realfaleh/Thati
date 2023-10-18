@@ -10,29 +10,38 @@ import SwiftUI
 struct who_sLearningView: View {
     var body: some View {
         
-        VStack{
-            Text("who's learning?")
-            .padding(50)
         
-        HStack(spacing:40){
-            Circle()
-                .fill(Color("lavender"))
-                .frame(width: 200, height: 200)
+        ZStack {
+            Image("bg")
+            VStack() {
+                Text("who's learning?")
+                    .padding(.bottom,150)
+              
             
-            Circle()
-                .fill(Color("lavender"))
-                .frame(width: 200, height: 200)
-
-            
-        }
-            HStack(spacing:150) {
-                Text("Noura")
+                HStack(spacing:40){
                     
-                Text("Add")
+                    VStack{
+                        Circle()
+                            .fill(Color("lavender"))
+                            .frame(width: 200, height: 200)
+                        
+                        Text("Noura")
+                    }
+                    VStack{
+                    Circle()
+                        .fill(Color("lavender"))
+                        .frame(width: 200, height: 200)
+                        .overlay(Image(systemName: "plus")
+                            .foregroundColor(Color.white))
+                    Text("Add")
+                    }.padding()
+            }.padding(.bottom,150)
+                
             }
+            .padding()
             
-            
-        }.font(.system(size: 50))
+            .font(.system(size: 50))
+        }
        
     }
 }
@@ -41,4 +50,4 @@ struct who_sLearningView: View {
     who_sLearningView()
 }
 
-//Image(systemName: "plus")
+

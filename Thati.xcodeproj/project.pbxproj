@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6919FE6F2ADE05010045DC94 /* That.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6919FE6E2ADE05010045DC94 /* That.mp4 */; };
 		69776C952AD8338F00D2FF5C /* demoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C942AD8338F00D2FF5C /* demoView.swift */; };
-		69776C9C2AD855C400D2FF5C /* thatilogo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 69776C9B2AD855C400D2FF5C /* thatilogo.mp4 */; };
 		69776C9E2AD85BC000D2FF5C /* who'sLearningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C9D2AD85BC000D2FF5C /* who'sLearningView.swift */; };
-		69776CA02AD85FBD00D2FF5C /* subjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69776C9F2AD85FBD00D2FF5C /* subjectView.swift */; };
 		87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */; };
 		87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B802AD6EB9200B034B1 /* Assets.xcassets */; };
 		87467B842AD6EB9200B034B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87467B832AD6EB9200B034B1 /* Preview Assets.xcassets */; };
@@ -37,10 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6919FE6E2ADE05010045DC94 /* That.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = That.mp4; path = ../../../../../Desktop/That.mp4; sourceTree = "<group>"; };
 		69776C942AD8338F00D2FF5C /* demoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoView.swift; sourceTree = "<group>"; };
-		69776C9B2AD855C400D2FF5C /* thatilogo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = thatilogo.mp4; path = ../../../../../.Trash/thatilogo.mp4; sourceTree = "<group>"; };
 		69776C9D2AD85BC000D2FF5C /* who'sLearningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "who'sLearningView.swift"; sourceTree = "<group>"; };
-		69776C9F2AD85FBD00D2FF5C /* subjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subjectView.swift; sourceTree = "<group>"; };
 		87467B792AD6EB9100B034B1 /* Thati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thati.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87467B7C2AD6EB9100B034B1 /* ThatiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThatiApp.swift; sourceTree = "<group>"; };
 		87467B802AD6EB9200B034B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -137,9 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				69776C942AD8338F00D2FF5C /* demoView.swift */,
+				6919FE6E2ADE05010045DC94 /* That.mp4 */,
 				69776C9D2AD85BC000D2FF5C /* who'sLearningView.swift */,
-				69776C9F2AD85FBD00D2FF5C /* subjectView.swift */,
-				69776C9B2AD855C400D2FF5C /* thatilogo.mp4 */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -208,7 +205,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					87467B782AD6EB9100B034B1 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -249,8 +246,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				87467B842AD6EB9200B034B1 /* Preview Assets.xcassets in Resources */,
-				69776C9C2AD855C400D2FF5C /* thatilogo.mp4 in Resources */,
 				87467B812AD6EB9200B034B1 /* Assets.xcassets in Resources */,
+				6919FE6F2ADE05010045DC94 /* That.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +274,6 @@
 			files = (
 				69776C952AD8338F00D2FF5C /* demoView.swift in Sources */,
 				69776C9E2AD85BC000D2FF5C /* who'sLearningView.swift in Sources */,
-				69776CA02AD85FBD00D2FF5C /* subjectView.swift in Sources */,
 				87467B7D2AD6EB9100B034B1 /* ThatiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +347,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -411,6 +408,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
