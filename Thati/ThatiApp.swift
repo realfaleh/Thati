@@ -11,9 +11,10 @@ import SwiftUI
 struct ThatiApp: App {
     var body: some Scene {
         WindowGroup {
-           // demoView()
-          //  who_sLearningView()
-            ContentView3()
+            demoView()
+         
+       
         }
+        
     }
 }

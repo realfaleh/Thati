@@ -24,7 +24,7 @@ struct AreYouView: View {
                     
                     HStack(spacing: 120) {
                         VStack {
-                            NavigationLink(destination: SwiftUIView()) {
+                            NavigationLink(destination: parentView()) {
                                 Image("Parent")
                                     .resizable()
                                     .frame(width: 200, height: 200)
@@ -36,7 +36,7 @@ struct AreYouView: View {
                         }
                         
                         VStack {
-                            NavigationLink(destination: ContentView()) {
+                            NavigationLink(destination: ChildView()) {
                                 Image("Student")
                                     .resizable()
                                     .frame(width: 200, height: 200)
